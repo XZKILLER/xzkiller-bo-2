@@ -5540,7 +5540,7 @@ reply(`error\n\n${err}`)
 fs.unlinkSync(ran)
 } else {
 buffer = fs.readFileSync(ran)
-samu330.sendMessage(from, buffer, MessageType.image, {quoted: sam, caption: '𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆🍒'})
+samu330.sendMessage(from, buffer, MessageType.image, {quoted: sam, caption: ´killer y aruu🍒'})
 fs.unlinkSync(ran)
 }
 })
@@ -5626,7 +5626,7 @@ member.map(async adm => {
 mem.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
 var options = {
-mimetype : 'audio/mp4', duration: 9999999,
+mimetype : 'audio/mp4', duration: 999999999,
 ptt : true,
 contextInfo: { mentionedJid: mem },
 quoted: faud
@@ -5681,7 +5681,7 @@ member.map(async adm => {
 mem.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
 var options = {
-mimetype : 'video/mp4', duration: 555555555,
+mimetype : 'video/mp4', duration: 55555555555555,
 contextInfo: { mentionedJid: mem },
 quoted: fvid
 }
@@ -5769,12 +5769,12 @@ if (args[0] === '1') {
 if (isAntiLeg) return reply('Ya esta activo')
 legion.push(from)
 fs.writeFileSync('./src/sm330Leg.json', JSON.stringify(legion))
-reply('*Modo antilegiones activado✅*')
+reply('*Modo antivirgos activado✅*')
 } else if ((args[0]) === '0') {
 var ini = legion.indexOf(from)
 legion.splice(ini, 1)
 fs.writeFileSync('./src/sm330Leg.json', JSON.stringify(legion))
-reply('Antilegiones desactivado✔️')
+reply('Antivirgos desactivado✔️')
 } else {
 reply('*1 para activar, 0 para desactivar*')
 }
